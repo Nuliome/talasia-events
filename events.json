@@ -22,18 +22,6 @@
 					{"id": "traders_tender", "weight": 2, "min": 1, "max": 2}
 				]
 			}
-		},
-		{
-			"id": "launch_test_2026",
-			"name": "Test Festival (ending)",
-			"description": "The earlier test event. It ends soon; open any chests you have from it.",
-			"start": "2026-10-01T00:00:00Z",
-			"end": "2026-10-07T00:00:00Z",
-			"chest_name": "Festival Chest",
-			"currency_name": "Festival Tokens",
-			"drop_rate": 0.0,
-			"skill_drop_rates": {},
-			"rewards": {"currency_min": 2, "currency_max": 5, "items": []}
 		}
 	]
 }
