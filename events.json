@@ -131,11 +131,68 @@
 				"target": 43000,
 				"max_bonus": 1.0
 			},
+			"details": {
+				"by_year": {
+					"2026": {
+						"welcome": "Welcome to the Talasia Halloween event of {year}! This event marks the first event the game has seen and as such, I want to make it special. It will be undergoing testing and changes, so feel free to voice concerns or compliments at our official Discord Server. Link at the bottom.",
+						"closing": "Thank you all and I hope you enjoy the event. Plenty of updates & changes to come."
+					}
+				},
+				"title": "Spooky Halloween in Talasia",
+				"intro": "The headless horseman has been sighted. Strange pumpkins have been sprouting all over the land and some of the forests have grown sinister. Ghosts and evil creatures walk the night, but fear not, for you shall not be tricked. Let the fun begin.",
+				"list": [
+					{
+						"label": "Combat Areas",
+						"text": "Spooky Forest and Sinister Den have opened up."
+					}
+				],
+				"blocks": [
+					{
+						"type": "text",
+						"text": "To participate in this event, simply perform any crafting or gathering skill action. These will net you a low chance to obtain this year's event exclusive chest; {chest}. Open your Halloween Chests to obtain a variety of useful materials and some event currency, {currency}. These can be spent in the event shop found under Events or by clicking your {currency} in the currency tab."
+					},
+					{
+						"type": "text",
+						"text": "Sinister trees and other spooky manner of being have been sighted near the Pinewood Thicket. Event exclusive areas have been opened up for adventuring. But beware, these creatures won't part with their candy so easily. You may even run into the Headless Horseman himself!"
+					},
+					{
+						"type": "heading",
+						"text": "Rewards"
+					},
+					{
+						"type": "item",
+						"name": "{chest}",
+						"text": "This spooky chest will contain a variety of useful materials for your level (and some). Open these bad boys up and hope for the best! No tricks this time."
+					},
+					{
+						"type": "item",
+						"name": "Combat Adventures",
+						"text": "Spooky Forest and Sinister Den have opened for the first time! These ventures scale with your level so you will always find some rewards here. Just be warned, the further you delve, the harder it gets, but the sweeter! Each creature will drop candies and some useful items. You may even find some event exclusive items here."
+					},
+					{
+						"type": "text",
+						"text": "This year introduces a few new things. Titles, Event Exclusive Furniture and some wonderful permanent bonuses (only during the event). There are also non-event exclusive satchels you can purchase to obtain some materials in a pinch."
+					},
+					{
+						"type": "heading",
+						"text": "Catch up Bonus"
+					},
+					{
+						"type": "text",
+						"text": "Players that start the event late will find their candies come in much faster! A bonus will be applied when you open a chest or slay a monster that helps players catch up to a standard level over the course of the event. Never fear, you won't miss out on the fun."
+					},
+					{
+						"type": "loot",
+						"text": "Chest Loot"
+					}
+				],
+				"discord": ""
+			},
 			"name": "Halloween {year}",
 			"description": "The nights are getting darker. Pumpkin Chests are turning up in the strangest places.",
 			"start": "2026-10-01T00:00:00Z",
 			"end": "2026-11-03T00:00:00Z",
-			"chest_name": "Pumpkin Chest",
+			"chest_name": "Halloween Chest",
 			"chest_icon": "spooky_pumpkin_chest",
 			"currency_name": "Spooky Candy",
 			"currency_icon": "spooky_candy",
