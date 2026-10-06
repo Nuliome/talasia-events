@@ -4,12 +4,133 @@
 			"id": "halloween",
 			"repeat": "yearly",
 			"shop": [
-				{"id": "title_the_spooky", "name": "Title: the Spooky", "description": "Wear \"the Spooky\" on your Character page. Yours for good.", "cost": 40, "category": "exclusive", "title": "the Spooky", "limit": 1},
-				{"id": "title_the_ghost", "name": "Title: the Ghost", "description": "Shown after your name, like \"Nuliome, the Ghost\". Yours for good.", "cost": 100, "category": "exclusive", "title": "the Ghost", "limit": 1},
-				{"id": "log_bundle", "name": "Bundle of Oak Logs", "description": "A stack of logs. Placeholder reward.", "cost": 3, "category": "materials", "item": "oak_log", "amount": 50},
-				{"id": "plank_bundle", "name": "Bundle of Oak Planks", "description": "A stack of planks. Placeholder reward.", "cost": 5, "category": "materials", "item": "basic_plank", "amount": 20},
-				{"id": "tender_pair", "name": "Trader's Tender", "description": "Two tokens of thanks from the traders.", "cost": 10, "category": "materials", "item": "traders_tender", "amount": 2, "limit": 3}
+				{
+					"id": "title_the_spooky",
+					"name": "Title: the Spooky",
+					"description": "Shown after your name, like \"Nuliome, the Spooky\". Yours for good.",
+					"cost": 1500,
+					"category": "exclusive",
+					"limit": 1,
+					"title": "the Spooky"
+				},
+				{
+					"id": "title_the_ghost",
+					"name": "Title: the Ghost",
+					"description": "Shown after your name, like \"Nuliome, the Ghost\". Yours for good.",
+					"cost": 4500,
+					"category": "exclusive",
+					"limit": 1,
+					"title": "the Ghost"
+				},
+				{
+					"id": "spooky_pumpkin_chair",
+					"name": "Spooky Pumpkin Chair",
+					"description": "A chair carved from a giant pumpkin for your Township.",
+					"cost": 3000,
+					"category": "exclusive",
+					"limit": 1,
+					"item": "spooky_pumpkin_chair",
+					"amount": 1
+				},
+				{
+					"id": "haunted_lantern",
+					"name": "Haunted Lantern",
+					"description": "A lantern that flickers on its own, a decoration for your Township.",
+					"cost": 3000,
+					"category": "exclusive",
+					"limit": 1,
+					"item": "haunted_lantern",
+					"amount": 1
+				},
+				{
+					"id": "pumpkin_patch",
+					"name": "Pumpkin Patch",
+					"description": "+5% chance of an extra resource when gathering, until the event ends.",
+					"cost": 1500,
+					"category": "bonuses",
+					"limit": 1,
+					"bonuses": {
+						"extra_resource": 5
+					}
+				},
+				{
+					"id": "candlelit_workshop",
+					"name": "Candlelit Workshop",
+					"description": "+5% chance a craft keeps its materials, until the event ends.",
+					"cost": 1500,
+					"category": "bonuses",
+					"limit": 1,
+					"bonuses": {
+						"material_save": 5
+					}
+				},
+				{
+					"id": "midnight_oil",
+					"name": "Midnight Oil",
+					"description": "+5% XP in every skill, until the event ends.",
+					"cost": 2200,
+					"category": "bonuses",
+					"limit": 1,
+					"bonuses": {
+						"xp": 5
+					}
+				},
+				{
+					"id": "haunted_haggler",
+					"name": "Haunted Haggler",
+					"description": "+5% gold from requests and +25% gold from Market Stall sales, until the event ends.",
+					"cost": 1800,
+					"category": "bonuses",
+					"limit": 1,
+					"bonuses": {
+						"request_gold": 5,
+						"stall_gold": 25
+					}
+				},
+				{
+					"id": "restless_nights",
+					"name": "Restless Nights",
+					"description": "+2 hours of time-away progress, until the event ends. Buy it up to 6 times.",
+					"cost": 600,
+					"category": "bonuses",
+					"limit": 6,
+					"bonuses": {
+						"time_away_hours": 2
+					}
+				},
+				{
+					"id": "log_bundle",
+					"name": "Bundle of Oak Logs",
+					"description": "A stack of logs. Placeholder reward.",
+					"cost": 50,
+					"category": "materials",
+					"item": "oak_log",
+					"amount": 50
+				},
+				{
+					"id": "plank_bundle",
+					"name": "Bundle of Oak Planks",
+					"description": "A stack of planks. Placeholder reward.",
+					"cost": 60,
+					"category": "materials",
+					"item": "basic_plank",
+					"amount": 20
+				},
+				{
+					"id": "tender_pair",
+					"name": "Trader's Tender",
+					"description": "Two tokens of thanks from the traders.",
+					"cost": 200,
+					"category": "materials",
+					"item": "traders_tender",
+					"amount": 2,
+					"limit": 3
+				}
 			],
+			"catchup": {
+				"target": 43000,
+				"max_bonus": 1.0
+			},
 			"name": "Halloween {year}",
 			"description": "The nights are getting darker. Pumpkin Chests are turning up in the strangest places.",
 			"start": "2026-10-01T00:00:00Z",
@@ -25,12 +146,26 @@
 				"currency_max": 5,
 				"item_rolls": 1,
 				"items": [
-					{"id": "oak_log", "weight": 10, "min": 10, "max": 30},
-					{"id": "basic_plank", "weight": 6, "min": 3, "max": 8},
-					{"id": "traders_tender", "weight": 2, "min": 1, "max": 2}
+					{
+						"id": "oak_log",
+						"weight": 10,
+						"min": 10,
+						"max": 30
+					},
+					{
+						"id": "basic_plank",
+						"weight": 6,
+						"min": 3,
+						"max": 8
+					},
+					{
+						"id": "traders_tender",
+						"weight": 2,
+						"min": 1,
+						"max": 2
+					}
 				]
 			}
 		}
 	]
 }
-
