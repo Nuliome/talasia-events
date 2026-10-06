@@ -148,6 +148,10 @@
 				],
 				"blocks": [
 					{
+						"type": "heading",
+						"text": "How to take part"
+					},
+					{
 						"type": "text",
 						"text": "To participate in this event, simply perform any crafting or gathering skill action. These will net you a low chance to obtain this year's event exclusive chest; {chest}. Open your Halloween Chests to obtain a variety of useful materials and some event currency, {currency}. These can be spent in the event shop found under Events or by clicking your {currency} in the currency tab."
 					},
@@ -162,7 +166,8 @@
 					{
 						"type": "item",
 						"name": "{chest}",
-						"text": "This spooky chest will contain a variety of useful materials for your level (and some). Open these bad boys up and hope for the best! No tricks this time."
+						"text": "This spooky chest will contain a variety of useful materials for your level (and some). Open these bad boys up and hope for the best! No tricks this time.",
+						"icon": "chest"
 					},
 					{
 						"type": "item",
