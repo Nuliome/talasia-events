@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"id": "launch_test_2026",
+			"name": "Test Festival",
+			"description": "A test event to check the live calendar works. Chests drop from any skill action.",
+			"start": "2026-10-01T00:00:00Z",
+			"end": "2026-12-31T00:00:00Z",
+			"chest_name": "Festival Chest",
+			"currency_name": "Festival Tokens",
+			"drop_rate": 0.02,
+			"skill_drop_rates": {},
+			"rewards": {
+				"currency_min": 2,
+				"currency_max": 5,
+				"item_rolls": 1,
+				"items": [
+					{"id": "oak_log", "weight": 10, "min": 10, "max": 30},
+					{"id": "basic_plank", "weight": 6, "min": 3, "max": 8},
+					{"id": "traders_tender", "weight": 2, "min": 1, "max": 2}
+				]
+			}
+		}
+	]
+}
