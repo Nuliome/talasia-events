@@ -4,9 +4,11 @@
 			"id": "halloween",
 			"repeat": "yearly",
 			"shop": [
-				{"id": "log_bundle", "name": "Bundle of Oak Logs", "description": "A stack of logs. Placeholder reward.", "cost": 3, "item": "oak_log", "amount": 50},
-				{"id": "plank_bundle", "name": "Bundle of Oak Planks", "description": "A stack of planks. Placeholder reward.", "cost": 5, "item": "basic_plank", "amount": 20},
-				{"id": "tender_pair", "name": "Trader's Tender", "description": "Two tokens of thanks from the traders.", "cost": 10, "item": "traders_tender", "amount": 2, "limit": 3}
+				{"id": "title_the_spooky", "name": "Title: the Spooky", "description": "Wear \"the Spooky\" on your Character page. Yours for good.", "cost": 40, "category": "exclusive", "title": "the Spooky", "limit": 1},
+				{"id": "title_the_ghost", "name": "Title: the Ghost", "description": "Shown after your name, like \"Nuliome, the Ghost\". Yours for good.", "cost": 100, "category": "exclusive", "title": "the Ghost", "limit": 1},
+				{"id": "log_bundle", "name": "Bundle of Oak Logs", "description": "A stack of logs. Placeholder reward.", "cost": 3, "category": "materials", "item": "oak_log", "amount": 50},
+				{"id": "plank_bundle", "name": "Bundle of Oak Planks", "description": "A stack of planks. Placeholder reward.", "cost": 5, "category": "materials", "item": "basic_plank", "amount": 20},
+				{"id": "tender_pair", "name": "Trader's Tender", "description": "Two tokens of thanks from the traders.", "cost": 10, "category": "materials", "item": "traders_tender", "amount": 2, "limit": 3}
 			],
 			"name": "Halloween {year}",
 			"description": "The nights are getting darker. Pumpkin Chests are turning up in the strangest places.",
