@@ -171,6 +171,12 @@
 					},
 					{
 						"type": "item",
+						"name": "{currency} ({year})",
+						"icon": "currency",
+						"text": "These are your event-exclusive currency. Collect these from creatures or chests and redeem them for rewards."
+					},
+					{
+						"type": "item",
 						"name": "Combat Adventures",
 						"text": "Spooky Forest and Sinister Den have opened for the first time! These ventures scale with your level so you will always find some rewards here. Just be warned, the further you delve, the harder it gets, but the sweeter! Each creature will drop candies and some useful items. You may even find some event exclusive items here."
 					},
