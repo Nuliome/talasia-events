@@ -1,8 +1,9 @@
 {
 	"events": [
 		{
-			"id": "halloween_2026",
-			"name": "Halloween",
+			"id": "halloween",
+			"repeat": "yearly",
+			"name": "Halloween {year}",
 			"description": "The nights are getting darker. Pumpkin Chests are turning up in the strangest places.",
 			"start": "2026-10-01T00:00:00Z",
 			"end": "2026-11-03T00:00:00Z",
