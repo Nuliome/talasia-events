@@ -7,7 +7,7 @@
 			"start": "2026-10-01T00:00:00Z",
 			"end": "2026-11-03T00:00:00Z",
 			"chest_name": "Pumpkin Chest",
-			"chest_icon": "pumpkin_chest",
+			"chest_icon": "spooky_pumpkin_chest",
 			"currency_name": "Spooky Candy",
 			"drop_rate": 0.02,
 			"skill_drop_rates": {},
